@@ -16,6 +16,9 @@ import { SignInComponent } from './auth/sign-in/sign-in.component';
 import { SignUpComponent } from './auth/sign-up/sign-up.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ApplicationComponent } from './application/application.component';
+import { AmplifyAuthenticatorModule } from '@aws-amplify/ui-angular';
+import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
+import { NbEvaIconsModule } from '@nebular/eva-icons';
 
 
 
@@ -33,11 +36,14 @@ import { ApplicationComponent } from './application/application.component';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    BrowserAnimationsModule,
+    AmplifyAuthenticatorModule,
     MatCardModule,
     MatToolbarModule,
     MatButtonModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    NbThemeModule.forRoot({ name: 'default' }),
+    NbLayoutModule,
+    NbEvaIconsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

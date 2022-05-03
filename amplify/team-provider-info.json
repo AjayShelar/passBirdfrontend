@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-passbird-dev-133705-authRole",
+      "UnauthRoleArn": "arn:aws:iam::531119459444:role/amplify-passbird-dev-133705-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::531119459444:role/amplify-passbird-dev-133705-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-passbird-dev-133705-deployment",
+      "UnauthRoleName": "amplify-passbird-dev-133705-unauthRole",
+      "StackName": "amplify-passbird-dev-133705",
+      "StackId": "arn:aws:cloudformation:ap-south-1:531119459444:stack/amplify-passbird-dev-133705/321c9470-c6ca-11ec-8e97-02033beadb80",
+      "AmplifyAppId": "d2x5m3y10688ae"
+    },
+    "categories": {
+      "auth": {
+        "passBirdAuth": {}
+      }
+    }
+  }
+}
