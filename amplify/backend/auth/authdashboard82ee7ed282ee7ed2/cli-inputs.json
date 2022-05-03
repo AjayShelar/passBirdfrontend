@@ -1,14 +1,14 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "resourceNameTruncated": "passbi20a1b8e4",
-    "userPoolName": "passBirdPool",
+    "resourceNameTruncated": "authda82ee7ed2",
+    "userPoolName": "authdashboard82ee7ed2_userpool_82ee7ed2",
     "autoVerifiedAttributes": [
       "phone_number"
     ],
-    "mfaConfiguration": "ON",
+    "mfaConfiguration": "OPTIONAL",
     "mfaTypes": [
-      "SMS Text Message"
+      "TOTP"
     ],
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
@@ -24,17 +24,17 @@
     ],
     "aliasAttributes": [],
     "userpoolClientGenerateSecret": false,
-    "userpoolClientRefreshTokenValidity": "10",
+    "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [
       "email"
     ],
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "passBi20a1b8e4_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "authda82ee7ed2_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "20a1b8e4",
-    "resourceName": "passBirdAuth",
+    "sharedId": "82ee7ed2",
+    "resourceName": "authdashboard82ee7ed282ee7ed2",
     "authSelections": "userPoolOnly",
     "useDefault": "manual",
     "usernameAttributes": [

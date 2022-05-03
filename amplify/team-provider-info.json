@@ -1,19 +1,19 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-passbird-dev-133705-authRole",
-      "UnauthRoleArn": "arn:aws:iam::531119459444:role/amplify-passbird-dev-133705-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::531119459444:role/amplify-passbird-dev-133705-authRole",
+      "AuthRoleName": "amplify-authdashboard-dev-112601-authRole",
+      "UnauthRoleArn": "arn:aws:iam::365969590568:role/amplify-authdashboard-dev-112601-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::365969590568:role/amplify-authdashboard-dev-112601-authRole",
       "Region": "ap-south-1",
-      "DeploymentBucketName": "amplify-passbird-dev-133705-deployment",
-      "UnauthRoleName": "amplify-passbird-dev-133705-unauthRole",
-      "StackName": "amplify-passbird-dev-133705",
-      "StackId": "arn:aws:cloudformation:ap-south-1:531119459444:stack/amplify-passbird-dev-133705/321c9470-c6ca-11ec-8e97-02033beadb80",
-      "AmplifyAppId": "d2x5m3y10688ae"
+      "DeploymentBucketName": "amplify-authdashboard-dev-112601-deployment",
+      "UnauthRoleName": "amplify-authdashboard-dev-112601-unauthRole",
+      "StackName": "amplify-authdashboard-dev-112601",
+      "StackId": "arn:aws:cloudformation:ap-south-1:365969590568:stack/amplify-authdashboard-dev-112601/b6741c00-caa5-11ec-a7ed-02ff0ffb8c84",
+      "AmplifyAppId": "d3jbezmr6w2zdj"
     },
     "categories": {
       "auth": {
-        "passBirdAuth": {}
+        "authdashboard82ee7ed282ee7ed2": {}
       }
     }
   }

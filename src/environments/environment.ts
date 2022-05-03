@@ -8,9 +8,17 @@ export const environment = {
   cognitoAppClientId: "4tv56k07t46780b51fdm4u865r",
   cognitoApppRegion:"ap-south-1",
   apiUrl:'https://yi2g097rrh.execute-api.ap-south-1.amazonaws.com/Prod/',
-  apiKey:'LSepEnYsGq1ARNjY3kRrO9QUmW1WhJF5acXnJhQE'
-
+  apiKey:'LSepEnYsGq1ARNjY3kRrO9QUmW1WhJF5acXnJhQE',
+  amplify: {
+    Auth: {
+      identityPoolId: 'ap-northeast-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+      region: 'ap-south-1',
+      userPoolId: 'ap-south-1',
+      userPoolWebClientId: 'xxxxxxxxxxxxxxxxxxxxxxxxx'
+    }
+  }
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file

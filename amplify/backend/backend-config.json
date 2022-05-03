@@ -1,6 +1,6 @@
 {
   "auth": {
-    "passBirdAuth": {
+    "authdashboard82ee7ed282ee7ed2": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -19,9 +19,9 @@
             "REQUIRES_SYMBOLS"
           ]
         },
-        "mfaConfiguration": "ON",
+        "mfaConfiguration": "OPTIONAL",
         "mfaTypes": [
-          "SMS"
+          "TOTP"
         ],
         "verificationMechanisms": [
           "PHONE_NUMBER"

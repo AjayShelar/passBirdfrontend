@@ -65,7 +65,8 @@ import 'zone.js';  // Included with Angular CLI.
     env: { DEBUG: undefined },
   };
 
-
+  import 'core-js/es/typed-array';
+  import 'core-js/es/object';
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */

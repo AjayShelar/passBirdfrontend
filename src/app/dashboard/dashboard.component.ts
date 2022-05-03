@@ -22,15 +22,5 @@ export class DashboardComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onLogout(): void {
-    let poolData = {
-      UserPoolId: environment.cognitoUserPoolId,
-      ClientId: environment.cognitoAppClientId
-    };
-    let userPool = new CognitoUserPool(poolData);
-    let cognitoUser = userPool.getCurrentUser();
-    console.log(cognitoUser)
-    cognitoUser?.signOut();
-    this.router.navigate(["signin"])
-  }
+
 }

@@ -15,8 +15,10 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ApplicationComponent } from './application/application.component';
 import { AmplifyAuthenticatorModule } from '@aws-amplify/ui-angular';
-import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
+import { NbThemeModule, NbLayoutModule, NbCardModule, NbIconModule, NbSidebarModule, NbMenuModule, NbActionsModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { HomeComponent } from './home/home.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -24,7 +26,8 @@ import { NbEvaIconsModule } from '@nebular/eva-icons';
   declarations: [
     AppComponent,
     DashboardComponent,
-    ApplicationComponent
+    ApplicationComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -33,13 +36,17 @@ import { NbEvaIconsModule } from '@nebular/eva-icons';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     AmplifyAuthenticatorModule,
-    MatCardModule,
-    MatToolbarModule,
-    MatButtonModule,
-    FlexLayoutModule,
+    NbIconModule,               // <---------
+    NbSidebarModule.forRoot(),  // <---------
+    NbMenuModule.forRoot(), 
     NbThemeModule.forRoot({ name: 'default' }),
+
+    NbCardModule,
+    FlexLayoutModule,
     NbLayoutModule,
-    NbEvaIconsModule
+    NbActionsModule,
+    NbEvaIconsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
